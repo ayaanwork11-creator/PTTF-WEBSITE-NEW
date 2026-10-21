@@ -1,0 +1,33 @@
+{
+  "routes": [
+    { "path": "/", "title": "PTTF — Pakistan Textile Testing Foundation" },
+    { "path": "/about-us/", "title": "About Us — PTTF" },
+    { "path": "/contact-us/", "title": "Contact Us — PTTF" },
+    { "path": "/blog/", "title": "News & insights — PTTF" },
+    { "path": "/terms-and-conditions/", "title": "Terms and Conditions — PTTF" },
+    { "path": "/feedback/", "title": "Feedback — PTTF" },
+    { "path": "/privacy-policy/", "title": "Privacy Policy — PTTF" },
+    { "path": "/accreditations/", "title": "Accreditations — PTTF" },
+    { "path": "/global-presence/", "title": "Global Presence — PTTF" },
+    { "path": "/photo-gallery/", "title": "Photo Gallery — PTTF" },
+    { "path": "/idex-2022/", "title": "Textile Asia 2023 — PTTF" },
+    { "path": "/category/uncategorized/", "title": "Uncategorized — PTTF" },
+    { "path": "/author/mczind_admin/", "title": "PTTF Admin — PTTF" },
+    { "path": "/2024/05/08/", "title": "May 8, 2024 — PTTF" },
+    { "path": "/services/textile/", "title": "Textile Testing — PTTF" },
+    { "path": "/services/leather-and-footwear/", "title": "Leather and Footwear Testing — PTTF" },
+    { "path": "/services/leather-footwear-ppe/", "title": "Leather, Footwear & PPE Testing — PTTF" },
+    { "path": "/services/restricted-substances/", "title": "Restricted Substances Testing — PTTF" },
+    { "path": "/services/environmental/", "title": "Environmental Testing — PTTF" },
+    { "path": "/services/petroleum/", "title": "Petroleum Testing — PTTF" },
+    { "path": "/inspection/", "title": "Inspection & Verification — PTTF" },
+    { "path": "/inspection/status-check/", "title": "Status Check — PTTF" },
+    { "path": "/inspection/sample-evaluation/", "title": "Sample Evaluation — PTTF" },
+    { "path": "/inspection/inline-inspection/", "title": "Inline Inspection — PTTF" },
+    { "path": "/inspection/during-production/", "title": "During Production Inspection — PTTF" },
+    { "path": "/inspection/final-random-inspection/", "title": "Final Random Inspection — PTTF" },
+    { "path": "/inspection/supervision-of-loading/", "title": "Supervision of Loading — PTTF" },
+    { "path": "/inspection/vendor-assessment/", "title": "Vendor Assessment — PTTF" },
+    { "path": "/inspection/post-delivery-inspection/", "title": "Post-Delivery Inspection — PTTF" }
+  ]
+}
