@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(mkdir -p \"D:/PTTF-WEBSITE/.claude\")"
+    ]
+  }
+}

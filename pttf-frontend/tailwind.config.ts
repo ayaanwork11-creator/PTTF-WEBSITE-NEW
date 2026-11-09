@@ -1,0 +1,165 @@
+import { type Config } from 'tailwindcss';
+
+export default {
+  darkMode: ['class'],
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        surface: '#faf8ff',
+        'surface-dim': '#d2d9f4',
+        'surface-bright': '#faf8ff',
+        'surface-container-lowest': '#ffffff',
+        'surface-container-low': '#f2f3ff',
+        'surface-container': '#eaedff',
+        'surface-container-high': '#e2e7ff',
+        'surface-container-highest': '#dae2fd',
+        'on-surface': '#131b2e',
+        'on-surface-variant': '#44474c',
+        'inverse-surface': '#283044',
+        'inverse-on-surface': '#eef0ff',
+        outline: '#75777d',
+        'outline-variant': '#c5c6cd',
+        'surface-tint': '#525f75',
+        primary: '#000000',
+        'on-primary': '#ffffff',
+        'primary-container': '#0e1c2f',
+        'on-primary-container': '#77849c',
+        'inverse-primary': '#bac7e1',
+        secondary: '#a73a00',
+        'on-secondary': '#ffffff',
+        'secondary-container': '#fd651e',
+        'on-secondary-container': '#571a00',
+        tertiary: '#000000',
+        'on-tertiary': '#ffffff',
+        'tertiary-container': '#001d31',
+        'on-tertiary-container': '#188ace',
+        error: '#ba1a1a',
+        'on-error': '#ffffff',
+        'error-container': '#ffdad6',
+        'on-error-container': '#93000a',
+        'primary-fixed': '#d6e3fe',
+        'primary-fixed-dim': '#bac7e1',
+        'on-primary-fixed': '#0e1c2f',
+        'on-primary-fixed-variant': '#3a475c',
+        'secondary-fixed': '#ffdbce',
+        'secondary-fixed-dim': '#ffb599',
+        'on-secondary-fixed': '#370e00',
+        'on-secondary-fixed-variant': '#7f2b00',
+        'tertiary-fixed': '#cce5ff',
+        'tertiary-fixed-dim': '#93ccff',
+        'on-tertiary-fixed': '#001d31',
+        'on-tertiary-fixed-variant': '#004b73',
+        background: '#faf8ff',
+        'on-background': '#131b2e',
+        'surface-variant': '#dae2fd',
+      },
+      borderRadius: {
+        DEFAULT: '0.25rem', // 4px
+        lg: '0.25rem',
+        xl: '0.5rem', // 8px
+        full: '9999px',
+      },
+      spacing: {
+        gutter: '1.5rem',
+        'gutter-desktop': '2rem',
+        margin: '1rem',
+        'margin-tablet': '2rem',
+        'margin-desktop': '4rem',
+        'space-xs': '0.25rem', // 4px
+        'space-sm': '0.5rem', // 8px
+        'space-md': '1rem', // 16px
+        'space-lg': '1.5rem', // 24px
+        'space-xl': '2.5rem', // 40px
+      },
+      fontFamily: {
+        'plus-jakarta-sans': ['Plus Jakarta Sans', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        'headline-lg': ['Plus Jakarta Sans', 'sans-serif'],
+        'headline-md': ['Plus Jakarta Sans', 'sans-serif'],
+        'display-hero': ['Plus Jakarta Sans', 'sans-serif'],
+        'body-sm': ['Inter', 'sans-serif'],
+        'headline-lg-mobile': ['Plus Jakarta Sans', 'sans-serif'],
+        'title-sm': ['Inter', 'sans-serif'],
+        'body-md': ['Inter', 'sans-serif'],
+        'label-mono-tech': ['Inter', 'sans-serif'],
+        'body-lg': ['Inter', 'sans-serif'],
+        'headline-sm': ['Plus Jakarta Sans', 'sans-serif'],
+        'title-md': ['Inter', 'sans-serif'],
+        'display-hero-mobile': ['Plus Jakarta Sans', 'sans-serif'],
+        'label-caption': ['Inter', 'sans-serif'],
+      },
+      fontSize: {
+        'display-hero': ['56px', {
+          lineHeight: '64px',
+          letterSpacing: '-0.03em',
+          fontWeight: '800',
+        }],
+        'display-hero-mobile': ['36px', {
+          lineHeight: '44px',
+          letterSpacing: '-0.02em',
+          fontWeight: '800',
+        }],
+        'headline-lg': ['40px', {
+          lineHeight: '48px',
+          letterSpacing: '-0.025em',
+          fontWeight: '700',
+        }],
+        'headline-lg-mobile': ['28px', {
+          lineHeight: '36px',
+          letterSpacing: '-0.02em',
+          fontWeight: '700',
+        }],
+        'headline-md': ['28px', {
+          lineHeight: '36px',
+          letterSpacing: '-0.02em',
+          fontWeight: '700',
+        }],
+        'headline-sm': ['20px', {
+          lineHeight: '28px',
+          letterSpacing: '-0.015em',
+          fontWeight: '600',
+        }],
+        'title-md': ['18px', {
+          lineHeight: '26px',
+          letterSpacing: '-0.01em',
+          fontWeight: '600',
+        }],
+        'title-sm': ['16px', {
+          lineHeight: '24px',
+          letterSpacing: '-0.005em',
+          fontWeight: '600',
+        }],
+        'body-lg': ['18px', {
+          lineHeight: '28px',
+          letterSpacing: '0em',
+          fontWeight: '400',
+        }],
+        'body-md': ['15px', {
+          lineHeight: '24px',
+          letterSpacing: '0em',
+          fontWeight: '400',
+        }],
+        'body-sm': ['13px', {
+          lineHeight: '20px',
+          letterSpacing: '0.005em',
+          fontWeight: '400',
+        }],
+        'label-mono-tech': ['12px', {
+          lineHeight: '16px',
+          letterSpacing: '0.06em',
+          fontWeight: '600',
+        }],
+        'label-caption': ['11px', {
+          lineHeight: '14px',
+          letterSpacing: '0.02em',
+          fontWeight: '500',
+        }],
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config;
